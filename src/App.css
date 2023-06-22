@@ -1,0 +1,405 @@
+@import url(https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Alexandria:wght@500&family=Cairo:wght@300;400&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@500&family=Cairo:wght@400;600&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Alexandria', sans-serif;
+font-family: 'Cairo', sans-serif;
+
+}
+body,.general{
+  font-family: 'Alexandria', sans-serif;
+  font-family: 'Cairo', sans-serif;
+  
+}
+.loginPage{
+  position: relative;
+  background: rgb(175,13,35);
+  background: linear-gradient(90deg, rgba(175,13,35,1) 0%, rgba(200,83,83,1) 35%, rgba(200,140,140,1) 100%);
+  height:90vh;
+  padding-top: 40px;
+}
+.custom-shape-divider-bottom-1678456400 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1678456400 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 129px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1678456400 .shape-fill {
+  fill: #FFFFFF;
+}
+.parent-svg-logo{
+  width: 60%;
+  margin: 20px;
+  text-align: center;
+}
+.sign-form-style{
+  background-color: white;
+  width: 65%;
+  padding: 10px 15px 10px 15px;
+  margin:10px;
+  border-radius: 15px;
+
+}
+.sign-head{
+  padding: 5px;
+  text-align: center;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+.input-style{
+  border: 0 !important;
+  background-color:#F2EFE9 !important;
+  color:black !important;
+  padding: 10px !important;
+  direction: ltr !important;
+ 
+}
+.sign-sub-style{
+  border: 0;
+  color:white;
+  background-color: #AF0D23;
+  padding: 7px;
+  width: 50%;
+  margin: 20px;
+  border-radius: 20px;
+}
+.btn-style{
+  border: 1px solid black;
+  color:black;
+  background-color: #FF9672;
+ padding: 6px 20px;
+ text-decoration: none;
+  margin: 20px 0px;
+  border-radius: 20px;
+}
+.WordsSide{
+  color:white;
+  padding: 6px;
+width: 85%;
+  margin: 7px;
+  margin-top: 85px;
+}
+.WordsSide h1{
+margin-bottom: 20px;
+}
+.WordsSide h6{
+ line-height: 1.6;
+  }
+/********Footer Component*********/
+.copyRightDiv{
+padding: 10px;
+margin-top: 110px;
+color:white;
+font-weight: bold;
+text-align: center;
+background-color: #A13939;
+
+}
+.copyRightDivparent{
+  position: relative;
+}
+.custom-shape-divider-bottom-1679262055 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1679262055 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 62px;
+}
+
+.custom-shape-divider-bottom-1679262055 .shape-fill {
+  fill: #A13939;
+}
+@media only screen and (max-width: 600px) {
+  .WordsSide{
+    margin-top: 10px;
+  }
+  .loginPage{
+    padding-top: 10px;
+  }
+  .loginFormSide{
+    margin-top:-100px;
+  }
+  .sign-form-style{
+    width: 75%;
+    position: absolute;
+    z-index: 4855222;
+    border:1px solid #DCDCDC
+  }
+}
+/*******home page***********/
+
+
+.leftSide h1{
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 110px;
+}
+.RightSide {
+padding: 10px;
+  text-align: center;
+  }
+.RightSide .parent-find-img{
+  margin:15px;
+margin-top: 170px;
+text-align: center;
+}
+.RightSide .parent-find-img img{
+width:300px;
+
+  }
+  @media only screen and (max-width: 600px) {
+    .leftSide{
+      position: relative;
+      background-color: #A13939;
+      border-radius: 0 0 0 40%;  height:90vh;
+      padding: 30px !important;
+    }
+    .leftSide h1{
+      font-size: 40px;
+      color: white;
+      text-transform: uppercase;
+      margin-top: 30px;
+    }
+    .RightSide {
+    
+      text-align: center;
+      }
+    .RightSide .parent-find-img{
+    margin-top: 100px;
+  
+    }
+    .RightSide .parent-find-img img{
+    width:200px;
+    
+      }
+  } 
+  .main{
+   position: relative !important;
+   font-family: 'Alexandria', sans-serif;
+  font-family: 'Cairo', sans-serif;
+  }
+  .nav-style{
+    position: fixed !important;
+    width: 100% !important;
+    z-index:1000000 !important;
+  
+  }
+
+  .menu-ul li{
+margin: 10px 25px !important;
+text-transform: uppercase;
+
+  }
+  .menu-ul li a{
+    color: white !important;
+  }
+  .menu-ul  .active .nav-link{
+    color:#FF9672 !important
+      }
+    
+      @media only screen and (max-width: 600px) {
+        .navbar-collapse{
+          background-color: #a13939 !important;
+          border-radius: 5px !important;
+          margin-top: 5px !important;
+        }
+      .nav-style{
+ 
+        background-color: white !important;
+      }} 
+      /********check comp*********/
+      .leftSide h3{
+     
+        color: white;
+        text-transform: uppercase;
+        margin-top: 110px;
+        padding: 10px;
+      }
+      .searchform{
+        text-align: center;
+        display: block;
+      }
+      .parent-area{
+        display: flex !important;
+        justify-content: center !important;
+      }
+      .area-style{
+        border-radius: 10px;
+        height: 160px;
+        padding: 10px;
+        margin:20px 6px 13px 6px;
+       
+width: 65% !important;
+
+      }
+      /***********main footer************/
+      footer {
+        background: #707070;
+  
+        padding: 86px 0 10px 0;
+        margin-top: 40px;
+      }
+      .single-content {
+        text-align: center;
+        padding: 115px 0 10px 0;
+      }
+      .single-box p {
+        color: #fff;
+        line-height: 1.9;
+      }
+      .single-box h3 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+      }
+      .single-box .card-area i {
+        color: #ffffff;
+        font-size: 20px;
+        margin-right: 10px;
+      }
+      .single-box ul {
+        list-style: none;
+        padding: 0;
+      }
+      .single-box ul li a {
+        text-decoration: none;
+        color: #fff;
+        line-height: 2.5;
+        font-weight: 100;
+      }
+      .single-box h2 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      #basic-addon2 {
+        background: #fe1e4f;
+        color: #fff;
+      }
+      .socials i {
+        font-size: 18px;
+        margin-right: 15px;
+      }
+      @media (max-width: 767px) {
+        .single-box {
+          margin-bottom: 50px;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 991px) {
+        .single-box {
+          margin-bottom: 50px;
+        }
+      }
+      .resultPage-min{
+        background-color: #fbf2f2;
+        height: 100vh;
+        position: relative;
+       
+      }
+      .centerSide{
+   
+        text-align: center;
+        height: 81vh;
+        margin-top: 50px;
+      }
+      .checkAnoterBtn{
+        margin-top: 20px;
+      }
+      @media only screen and (max-width: 600px) {
+        .centerSide img{
+width:230px
+        }
+
+        .checkAnoterBtn{
+          margin-top: 40px;
+        }
+      }
+      .sign-another-style{
+        text-decoration: none;
+        color: #AF0D23;
+        display: block;
+        margin-bottom: 15px;
+        font-size: 14px;
+      }
+      .onePop{
+        margin:15px;
+        padding: 15px 15px 22px 15px;
+        text-align: center;
+        border-radius: 50px;
+        border:1px solid lightgray
+      }
+      .iconpop{
+        font-size: 40px !important;
+        margin:10px;
+        display: block;
+      }
+      .onePop p{
+padding: 10px;
+      }
+      .PopularSec{
+        padding: 10px;
+      }
+      .headpopular{
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+      }
+      .headpopular h1{
+       margin:10px
+      }
+      .startRead{
+        border:1px solid #1e8ac2;
+        margin:10px;text-transform:capitalize;border-radius:4px;
+        color:#1e8ac2;
+        background-color: white;
+        padding: 7px 15px;
+        text-decoration: none;
+      }
+      .startRead:hover{
+        border:1px solid gray;
+        margin:10px;text-transform:capitalize;border-radius:4px;
+        color:gray;
+        background-color: white;
+        padding: 7px 15px;
+        text-decoration: none;
+      }
+      .oneArt{
+        text-decoration: none;
+        color: black;
+      }
+      .Altr{
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+      }
+      .navbar-scrolled {
+        background-color: #a13939;
+      }
+      .navbar {
+        transition: background-color 0.3s ease;
+      }
